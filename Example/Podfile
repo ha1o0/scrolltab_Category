@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'scrolltab_Category_Example' do
+  pod 'scrolltab_Category', :path => '../'
+
+  target 'scrolltab_Category_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+    pod 'CTMediator'
+  end
+end
