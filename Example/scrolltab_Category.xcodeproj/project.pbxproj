@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		23ED6ED1F1CBE4CC8EA3D659 /* Pods-scrolltab_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrolltab_Category_Tests.debug.xcconfig"; path = "Target Support Files/Pods-scrolltab_Category_Tests/Pods-scrolltab_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C92781AE2D2A08A4A6FA01A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C92781AE2D2A08A4A6FA01A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B4AFFAAF4D4CB4E5D182AA7 /* Pods-scrolltab_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrolltab_Category_Example.release.xcconfig"; path = "Target Support Files/Pods-scrolltab_Category_Example/Pods-scrolltab_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
 		52D9C226899ED0C8DCDB054C /* Pods-scrolltab_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrolltab_Category_Example.debug.xcconfig"; path = "Target Support Files/Pods-scrolltab_Category_Example/Pods-scrolltab_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		57BFFFA173A913C9C55BA3B0 /* scrolltab_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = scrolltab_Category.podspec; path = ../scrolltab_Category.podspec; sourceTree = "<group>"; };
+		57BFFFA173A913C9C55BA3B0 /* scrolltab_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = scrolltab_Category.podspec; path = ../scrolltab_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* scrolltab_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrolltab_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		7EF52CDFDBBAC1305F904B89 /* Pods_scrolltab_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrolltab_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93BB3CC02DA6D03FAE590FED /* Pods_scrolltab_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrolltab_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA18F45321EBF2F34293C830 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA18F45321EBF2F34293C830 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				23ED6ED1F1CBE4CC8EA3D659 /* Pods-scrolltab_Category_Tests.debug.xcconfig */,
 				6B5C0BE0A7825236C2AF52E7 /* Pods-scrolltab_Category_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
